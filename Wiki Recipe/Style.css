@@ -1,0 +1,53 @@
+body {
+  font-family: "Hoefler Text", "Baskerville Old Face", Garamond,
+    "Times New Roman", serif;
+}
+
+h1,
+h2 {
+  margin-bottom: 0.25em;
+  padding: 0;
+  line-height: 1.3;
+  border-bottom: 1px solid #a2a9b1;
+  clear: both;
+}
+
+#toc_container {
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #aaa;
+  display: table;
+  font-size: 95%;
+  margin-bottom: 1em;
+  padding: 20px;
+  width: auto;
+}
+
+.toc_title {
+  font-weight: 700;
+  text-align: center;
+}
+
+#toc_container li,
+#toc_container ul,
+#toc_container ul li {
+  list-style: outside none none !important;
+}
+
+.Boldtext {font-weight:bolder;}
+
+.infobox {
+  width: 22em;
+  border: 1px solid #a2a9b1;
+  border-spacing: 3px;
+  background-color: #f8f9fa;
+  color: black;
+  margin: 0.5em 0 0.5em 1em;
+  padding: 0.2em;
+  float: right;
+  clear: right;
+  font-size: 88%;
+  line-height: 1.5em;
+}
+
+
+#image {text-align: center;}
