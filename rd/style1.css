@@ -1,0 +1,82 @@
+*{
+
+    font-family: sans-serif;
+    font-size: 24px;
+
+}
+
+h1  {
+
+    font-family:'Linux Libertine','Georgia','Times',serif;
+    font-weight: 500;
+    font-size: 3em;
+    line-height: 0.2;
+
+}
+
+h2  {
+
+    font-family:'Linux Libertine','Georgia','Times',serif;
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 0.2;
+
+}
+
+.box {
+   
+    border: 1px solid rgb(100, 100, 100);
+    width: 500px;
+    background-color: rgb(223, 223, 223);
+    padding: 10px 20px;
+    overflow:auto
+}
+
+ul li {
+
+    padding: 10px;
+    list-style-type: none;
+    width: 400px;
+}
+
+.img-main{
+
+    text-align: center;
+    font-size: 0.8m;
+    padding-top: 0;
+
+}
+
+.image {
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+
+
+}
+
+.infobox caption {
+    font-size: 125%;
+    font-weight: bold;
+    padding: 0.2em;
+    text-align: center;
+}
+
+span {
+
+    font-weight: bolder;
+}
+
+.italic {
+
+    font-style: italic;
+    padding-left: 30px;
+
+}
