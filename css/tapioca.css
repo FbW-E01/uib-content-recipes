@@ -35,6 +35,20 @@ ol.nodec {
     list-style: none;
 }
 
+div.right {
+    float: right;
+    background-color: #f8f9fa;
+    width: max-content;
+    border: #333 solid 1px;
+    padding: .5em;
+}
+
+div.caption {
+    width: 220px;
+    padding: .2em;
+    text-align: center;
+}
+
 ol.twoColumns {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
