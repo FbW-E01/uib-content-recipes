@@ -10,7 +10,7 @@ body {
 h1 {
     text-align: center;
     padding: 20px;
-    font-size: 3.5em;
+    font-size: 2.5em;
     color: white;
     text-shadow: purple 0 0 7px;
 }
@@ -22,7 +22,7 @@ li {
     width: 100%;
     padding: 5px 20px;
     margin-top: 10px;
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
 }
 
@@ -38,15 +38,26 @@ img {
     box-shadow: yellowgreen 0 0 25px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 710px) {
+    ul {
+        margin: 0 auto;
+        width: max-content;
+    }
+    
+    li {
+        width: min-content;
+        display: inline-block;
+    }
+    
     main {
         display: flex;
-        justify-content: space-between;
-        align-content: center;
+        justify-content: space-around;
+        align-content: flex-start;
         flex-wrap: wrap;
     }
     
     img {
-        width: 500px;
+        width: 390px;
+        margin: 20px;
     }
 }
