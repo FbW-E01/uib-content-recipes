@@ -1,0 +1,59 @@
+body {
+    padding: 2em;
+    background-color: #f6f6f6;
+}
+
+main {
+    border: solid 1px #a7d7f9;
+    background-color: white;
+    padding: 1em;
+}
+
+div#toc {
+    background-color: #f8f9fa;
+    width: max-content;
+    border: #333 solid 1px;
+    padding: 1em 1em 1em 0em;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: .15em;
+}
+
+h4 {
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+h5 {
+    font-size: medium;
+}
+
+ol.nodec {
+    list-style: none;
+}
+
+div.right {
+    float: right;
+    background-color: #f8f9fa;
+    width: max-content;
+    border: #333 solid 1px;
+    padding: .5em;
+}
+
+div.caption {
+    width: 220px;
+    padding: .2em;
+    text-align: center;
+}
+
+ol.twoColumns {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
